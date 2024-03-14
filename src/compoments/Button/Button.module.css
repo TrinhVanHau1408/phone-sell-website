@@ -1,0 +1,23 @@
+@import url('../../golbal.css');
+
+.container_button {
+    margin: 10px 0;
+}
+.btn {
+    width: 100%;
+    padding: 15px 0;
+    background: var(--primary-color);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: var(--size-medium);
+    color: #fff;
+    transition: all 0.8s ease;
+}
+
+.btn:hover {
+    background: #fff;
+    color: var(--primary-color);
+    outline: none;
+    transition: all 0.3s ease-out ;
+}
+
