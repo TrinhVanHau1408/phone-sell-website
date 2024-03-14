@@ -1,0 +1,68 @@
+@import url('../../golbal.css');
+
+.container{
+    position: relative;
+    padding: 25px 0 10px 0;
+    margin: 20px 0;
+}
+
+.input_form {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    cursor: text;
+    background: transparent;
+    padding: 0px 5px;
+    color: var(--primary-color);
+}
+
+.input_label {
+    position: absolute; 
+    top: 5px;
+    left: 0;
+    z-index: 99;
+    transition: all 0.3s ease;
+    /* transition: top 200ms ease-in, left 200ms ease-in, 
+font-size 200s ease-in; */
+}
+
+
+.input_bottom_line {
+    position: absolute; 
+    width: 100%;
+    z-index: 99;
+    left: 0;
+    bottom: 0;
+    border: 1px solid black;
+}
+
+.input_form:focus {
+    border: none;
+    outline: none;
+}
+
+/* .input_form:focus ~ .input_label,
+.input_form:not(:placeholder-shown)
+.input_form:not(:focus) ~ .input_label {
+    background: red;
+    font-size: 10px;
+    top: -20px;
+} */
+
+.input_form:focus ~ .input_label,
+.input_form:not(:placeholder-shown):valid ~ 
+.input_label{
+    color: var(--primary-color);
+    opacity: 0.8;
+    top: -10px;
+    left: 5px;
+    font-size: 12px;
+}
+
+.input_form:focus ~ .input_label,
+.input_form:not(:placeholder-shown):valid ~ 
+.input_bottom_line {
+    background: 2px solid var(--primary-color);
+}
