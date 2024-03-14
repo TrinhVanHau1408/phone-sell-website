@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #2A254B;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+
+    --size-small: 14px;
+    --size-medium: 20px;
+    --size-large: 30px;
+}
