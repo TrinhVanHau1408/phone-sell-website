@@ -1,0 +1,102 @@
+@import url(../../../golbal.css);
+
+.container_header {
+    display: flex;
+    flex-direction: row;
+    background: var(--primary-color);
+    padding: 15px 0;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: top 0.3s ease-in-out;
+    opacity: 1;
+    z-index: 100;
+
+}
+
+.logo_header {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo_header img {
+    background: transparent;
+    object-fit: cover;
+    font-weight: bold;
+    
+}
+
+.wrap_search_input {
+    width: 50%;
+}
+
+.search_input {
+    width: 100%;
+    padding: 15px 10px;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    background: var(--primary-color); 
+    color: #FFF;
+}
+
+.search_input:focus {
+    outline: none;
+    border: 2px solid #FFF;
+}
+.wrap_personal {
+    display: flex;
+    flex-direction: row;
+}
+.shopping_cart {
+    position: relative;
+    padding: 10px 10px;
+    margin-right: 40px;
+}
+
+.shopping_cart img {
+    filter: drop-shadow(2px 2px 2px #FFF);
+}
+
+.shopping_cart .number {
+    position: absolute;
+    font-size: var(--size-small);
+    font-weight: bold;
+    right: -5px;
+    top: 5px;
+    background: #fff;
+    color: var(--primary-color);
+    border-radius: 50%;
+    padding: 3px 3px;
+
+}
+.shopping_cart .icon{
+    background-color: #fff;
+}
+
+.wrap_button {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.wrap_button button{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #FFF;
+    font-size: var(--size-medium);
+    font-weight: bold;
+}
+
+.wrap_button span {
+    margin: 0 5px;
+    font-size: var(--size-medium);
+    font-weight: bold;
+}
