@@ -4,6 +4,8 @@ import Input from '../../compoments/Input';
 import Button from '../../compoments/Button';
 import styles from './LogIn.module.css';
 import {icons} from '../../constants/icons'
+// import Header from '../../compoments/common/Header';
+// import Footer from '../../compoments/common/Footer';
 const cx = classNames.bind(styles);
 function LogIn() {
     return (

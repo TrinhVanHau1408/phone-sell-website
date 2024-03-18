@@ -1,0 +1,83 @@
+@import url(../../golbal.css);
+
+.container_home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 100px;
+}
+
+.content_home {
+    /* background-color: var(--primary-color); */
+    padding: 0 30px;
+}
+.content_list {
+    margin: 30px 0;
+}
+.content_list .title{
+    color: var( --primary-color);
+    font-size: var(--size-medium);
+    text-align: center;
+    font-weight: bold;
+}
+
+.content_list .line {
+    border-bottom: 4px dashed var(--primary-color);
+    margin: 15px 0;
+}
+.list_product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    gap: 25px 25px;
+    margin: 10px 0;
+}
+
+.wrap_button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap_button button{
+    padding: 10px 15px;
+    margin: 10px 0;
+    color: var(--primary-color);
+    border-radius: 5px;
+}
+
+.content_policy {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap_policy {
+    padding:50px 20px;
+    background-color: rgba(166, 165, 165, 0.1);
+}
+
+.wrap_policy h3 {
+    text-align: center;
+    font-size: var(--size-medium);
+    padding: 20px 0;
+}
+.item_policy {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+
+.item_policy img {
+    margin-bottom: 15px;
+}
+
+.item_policy span:nth-child(2) {
+    font-weight: 500;
+}
+.item_policy span {
+    margin-bottom: 5px;
+}
