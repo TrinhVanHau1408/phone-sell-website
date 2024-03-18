@@ -1,0 +1,95 @@
+@import url(../../../golbal.css);
+
+.container_footer {
+    background-color: var(--primary-color);
+    color: #FFF;
+    width: 100%;
+    z-index: 100;
+
+}
+.wrap_header_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container_item {
+   display: flex;
+   width: 100%;
+   
+}
+
+.container_item:nth-child(1) {
+    flex-direction: row;
+    width: 150%;
+    justify-content: space-evenly;
+ }
+
+ .container_item:nth-child(2){ 
+    width: 25%;
+ }
+.container_item:nth-child(3){
+    flex-direction: column;
+    width: 100%;
+ }
+
+.container_item span {
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.container_item button {
+    text-align: start;
+    background: transparent;
+    margin-bottom: 10px;
+    color: #FFF;
+    opacity: 0.8;
+}
+
+.list_item {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.wrap_register {
+    width: 100%;
+}
+
+
+
+.wrap_register input {
+    border: none;
+    outline: none;
+    padding: 15px 100px;
+    border: 5px;
+    font-size: 18px;
+}
+
+.wrap_register button {
+    background-color: #FFF;
+    color: var(--primary-color);
+    padding: 15px 20px;
+    font-size: 18px;
+}
+.wrap_header_bottom {
+    padding: 0 175px;
+}
+
+.wrap_header_bottom .line {
+    margin: 10PX 0;
+    border-bottom: 2px solid #FFF;
+    opacity: 0.8;
+}
+
+.wrap_header_bottom .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 7px 0;
+}
+
+.wrap_icon img:nth-child(1) {
+    margin-right: 10px;
+}
