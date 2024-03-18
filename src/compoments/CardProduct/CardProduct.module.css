@@ -1,0 +1,34 @@
+@import url(../../golbal.css);
+
+.container_card_product {
+    height: 350px;
+    width: 200px;
+    border: 1px solid rgba(232, 228, 228, 0.2);
+    background-color: rgba(232, 228, 228, 0.2);
+    border-radius: 5px;
+}
+.container_card_product .info {
+    padding: 20px 10px;
+
+}
+
+.info .name {
+    font-weight: bold;
+}
+
+.info .price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.info .btn_add_to_cart {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 25px;
+    background-color: var(--primary-color);
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
